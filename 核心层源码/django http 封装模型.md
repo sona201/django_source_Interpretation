@@ -1,5 +1,5 @@
 django 封装模型采用 wsgiref 模块
-```
+```python
 from wsgiref.simple_server import make_server
 
 
