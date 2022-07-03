@@ -33,7 +33,7 @@ def application(environ, start_response):
     if func:
         return func(environ)
     else:
-        return ['<h1>404</h1>'.encode('utf-8')
+        return ['<h1>404</h1>'.encode('utf-8')]
 
 
 httpd = make_server('127.0.0.1', 8000, application)
